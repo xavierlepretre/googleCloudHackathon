@@ -13,5 +13,5 @@ import java.util.List;
  */
 public interface CommonService {
 
-    List<Position> getAllPositions(String name);
+    List<Position> getAllPositions();
 }

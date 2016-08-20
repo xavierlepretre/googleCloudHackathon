@@ -23,8 +23,7 @@ public class CommonServiceImpl implements CommonService {
     @Autowired
     private PositionRepository positionRepository;
 
-    @Override
-    public List<Position> getAllPositions(String name) {
+    public List<Position> getAllPositions() {
         return positionRepository.findAll();
     }
 }
