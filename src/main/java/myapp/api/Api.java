@@ -16,7 +16,7 @@ public class Api {
 	@GET
 	@Path("/loc")
 	@Produces("application/json")
-	public int getDistance(LongLat longLat) {
-		return 10;
+	public int getDistance(int longitude, int latitude) {
+		return longitude + latitude;
 	}
 }
