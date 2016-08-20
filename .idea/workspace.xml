@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43bf7268-3e5f-46f9-b13f-5a6730e907d5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/myapp/service/CommonService.java" afterPath="$PROJECT_DIR$/src/main/java/myapp/service/CommonService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/myapp/service/impl/CommonServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/myapp/service/impl/CommonServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/myapp/DemoServlet.java" afterPath="$PROJECT_DIR$/src/main/java/myapp/DemoServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/myapp/service/SpringContext.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="appengine-try-java.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -15,9 +15,13 @@
     <file path="/CommonService.java" changelist="43bf7268-3e5f-46f9-b13f-5a6730e907d5" time="1471705558764" ignored="false" />
     <file path="/CommonServiceImpl.java" changelist="43bf7268-3e5f-46f9-b13f-5a6730e907d5" time="1471705550057" ignored="false" />
     <file path="/web.xml" changelist="43bf7268-3e5f-46f9-b13f-5a6730e907d5" time="1471700335647" ignored="false" />
-    <file path="/spring-config.xml" changelist="43bf7268-3e5f-46f9-b13f-5a6730e907d5" time="1471702592430" ignored="false" />
+    <file path="/spring-config.xml" changelist="43bf7268-3e5f-46f9-b13f-5a6730e907d5" time="1471710518489" ignored="false" />
     <file path="/pom.xml" changelist="43bf7268-3e5f-46f9-b13f-5a6730e907d5" time="1471702354369" ignored="false" />
     <file path="/Position.java" changelist="43bf7268-3e5f-46f9-b13f-5a6730e907d5" time="1471706111317" ignored="false" />
+    <file path="$PROJECT_DIR$/../../polyglot/polyglot-server/src/main/java/com/polyglot/service/impl/WordsServiceImpl.java" changelist="43bf7268-3e5f-46f9-b13f-5a6730e907d5" time="1471709812669" ignored="false" />
+    <file path="/WordsServiceImpl.java" changelist="43bf7268-3e5f-46f9-b13f-5a6730e907d5" time="1471709770493" ignored="false" />
+    <file path="$PROJECT_DIR$/../../polyglot/polyglot-client/src/main/webapp/pages/application/words-main.xhtml" changelist="43bf7268-3e5f-46f9-b13f-5a6730e907d5" time="1471710207627" ignored="false" />
+    <file path="/words-main.xhtml" changelist="43bf7268-3e5f-46f9-b13f-5a6730e907d5" time="1471710197748" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,10 +82,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CommonServiceImpl.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CommonServiceImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/myapp/service/impl/CommonServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="43" selection-start="515" selection-end="515" vertical-scroll-proportion="0.5243902">
+            <state line="16" column="69" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,38 +93,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserCredentials.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.12.2.RELEASE/spring-data-commons-1.12.2.RELEASE.jar!/org/springframework/data/authentication/UserCredentials.class">
+      <file leaf-file-name="run-localhost.sh" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-repo-tools/scripts/run-localhost.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="14" selection-start="183" selection-end="183" vertical-scroll-proportion="-3.6">
+            <state line="51" column="97" selection-start="1495" selection-end="1495" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring-config.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="spring-config.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="52" selection-start="1186" selection-end="1186" vertical-scroll-proportion="0.0">
+            <state line="26" column="82" selection-start="1340" selection-end="1340" vertical-scroll-proportion="0.9512195">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PositionRepository.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/myapp/repository/PositionRepository.java">
+      <file leaf-file-name="Position.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/myapp/model/Position.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="46" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MongoRepository.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-mongodb/1.9.2.RELEASE/spring-data-mongodb-1.9.2.RELEASE-sources.jar!/org/springframework/data/mongodb/repository/MongoRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="79" selection-start="1376" selection-end="1376" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="12" column="32" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,11 +140,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/demo/demo.js">
+      <file leaf-file-name="PositionRepository.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/myapp/repository/PositionRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="126" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0">
+            <state line="12" column="79" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpringContext.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/myapp/service/SpringContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="74" selection-start="528" selection-end="528" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -185,12 +193,14 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/myapp/repository/UserRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/myapp/repository/impl/UserRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/myapp/repository/PositionRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/myapp/model/Position.java" />
         <option value="$PROJECT_DIR$/src/main/java/myapp/DemoServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/myapp/service/impl/CommonServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/myapp/service/CommonService.java" />
+        <option value="$PROJECT_DIR$/java-repo-tools/scripts/run-localhost.sh" />
+        <option value="$PROJECT_DIR$/src/main/java/myapp/service/SpringContext.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml" />
       </list>
     </option>
   </component>
@@ -431,40 +441,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appengine-try-java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="googleCloudHackathon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="repository" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -496,6 +472,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appengine-try-java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="googleCloudHackathon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-repo-tools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appengine-try-java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="googleCloudHackathon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-repo-tools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -731,7 +739,7 @@
       <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.46538025" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973205" sideWeight="0.53461975" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22132905" sideWeight="0.53461975" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -811,18 +819,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/appengine-web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-mongodb/1.9.2.RELEASE/spring-data-mongodb-1.9.2.RELEASE.jar!/org/springframework/data/mongodb/core/SimpleMongoDbFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="11" selection-start="1807" selection-end="1807" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.12.2.RELEASE/spring-data-commons-1.12.2.RELEASE.jar!/org/springframework/data/authentication/UserCredentials.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="14" selection-start="183" selection-end="183" vertical-scroll-proportion="-3.6">
@@ -867,36 +863,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/myapp/model/Position.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="32" selection-start="323" selection-end="323" vertical-scroll-proportion="0.2195122">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="52" selection-start="1186" selection-end="1186" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/myapp/repository/PositionRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="46" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-mongodb/1.9.2.RELEASE/spring-data-mongodb-1.9.2.RELEASE-sources.jar!/org/springframework/data/mongodb/repository/MongoRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="79" selection-start="1376" selection-end="1376" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/demo/demo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="126" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0">
@@ -929,10 +895,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/myapp/service/impl/CommonServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="43" selection-start="515" selection-end="515" vertical-scroll-proportion="0.5243902">
+        <state line="16" column="69" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-repo-tools/scripts/run-localhost.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="97" selection-start="1495" selection-end="1495" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/myapp/model/Position.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="32" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-mongodb/1.9.2.RELEASE/spring-data-mongodb-1.9.2.RELEASE-sources.jar!/org/springframework/data/mongodb/repository/MongoRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="27" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.14634146">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/myapp/repository/PositionRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="79" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/myapp/service/SpringContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="74" selection-start="528" selection-end="528" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="82" selection-start="1340" selection-end="1340" vertical-scroll-proportion="0.9512195">
+          <folding />
         </state>
       </provider>
     </entry>
