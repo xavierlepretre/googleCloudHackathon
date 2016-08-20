@@ -14,9 +14,10 @@ import java.util.List;
  */
 public interface CommonService {
 
-    List<Position> getAllPositions(String name);
-    
     LongLat getLastLongLat();
     
     void saveLongLat(LongLat pos);
+
+    List<Position> getAllPositions();
+
 }

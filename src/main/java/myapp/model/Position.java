@@ -10,7 +10,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
  * Time: 2:25 PM
  * To change this template use File | Settings | File Templates.
  */
-@Document(collection = "users")
+@Document(collection = "position")
 public class Position {
 
     @Id
