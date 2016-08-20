@@ -1,5 +1,6 @@
 package myapp.service;
 
+import myapp.model.LongLat;
 import myapp.model.Position;
 
 import java.util.List;
@@ -14,4 +15,8 @@ import java.util.List;
 public interface CommonService {
 
     List<Position> getAllPositions(String name);
+    
+    LongLat getLastLongLat();
+    
+    void saveLongLat(LongLat pos);
 }
